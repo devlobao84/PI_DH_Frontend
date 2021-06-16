@@ -1,0 +1,30 @@
+.body {
+  background-color: #F2F2F2;
+  padding: 10%;
+  min-height: 100vh;
+}
+
+
+.box-form {
+  background-color: white;
+}
+
+input:nth-child(2)  {
+  margin: 10px auto;
+  width: 95%;
+}
+input:nth-child(4)  {
+  margin: 10px auto;
+  width: 95%;
+}
+
+.logo {
+  width: 100px;
+  max-width: 100%;
+  margin: 2% 35%;
+}
+
+button {
+  width: 80%;
+  margin: 10% 10% !important;
+}

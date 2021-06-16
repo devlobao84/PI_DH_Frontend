@@ -1,0 +1,308 @@
+.body {
+  display: block;
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  padding: 2px !important;
+  overflow: hidden;
+}
+
+div .navProfile {
+  display: block;
+  width: 15%;
+  background-color: black;
+  color: #FFC100;
+  margin-left: -3%;
+  margin-top: -5%;
+  margin-bottom: -30%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-left: 35px;
+  border-radius: 10px;
+  z-index: 20;
+
+}
+
+.boas-vindas {
+  display: flex;
+  margin-top: 32px;
+  font-size: 18px;
+}
+
+.cliente {
+  display: flex;
+  margin: 5px 10px 0 0;
+  font-size: 27px;
+}
+
+.email {
+  display: flex;
+  font-size: 12px;
+}
+
+/*Menu Nav da dash */
+
+.nav-lista {
+  background: #1E1E1E;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 2px;
+  margin: 20px 20px 0 5px;
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-lista:hover {
+  background: #FFC100;
+  color: black;
+  font-size: 15px;
+  padding: 5px 2px;
+  margin: 20px 20px 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-lista>i {
+  padding-right: 20px;
+
+}
+
+.foto-perfil {
+  width: 130px;
+  margin-top: 30%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* Topo da tela */
+
+.barberInfo {
+  width: 100%;
+  height: 40%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* foto da barbearia */
+
+.row {
+  display: none;
+}
+
+.barbershop {
+  display: flex;
+  margin-top: -35px;
+  width: 300px;
+  height: 265%;
+  border-radius: 5%;
+}
+
+.shopBarbe {
+  display: flex;
+  padding: 50px auto;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\ */
+
+
+.logoBarbe {
+  display: block;
+  max-width: 100px;
+  margin: 0 400px;
+
+}
+
+.barberLogo {
+  width: 100px;
+}
+
+p.welcome {
+  display: flex;
+  font-size: 0.8rem;
+  text-align: left;
+  margin: 0 60px 0 0;
+  padding: 20px 43px 0 15px;
+  margin-bottom: 30px;
+}
+
+.disponiveis {
+  padding: 20px;
+}
+
+/*Final da Dahsboard*/
+
+.agendamentos {
+  background-color: white;
+  height: 10%;
+  border-radius: 10px;
+}
+
+.tituloAgendamento {
+  margin: 10px 0px !important;
+  font-size: 1.2rem !important;
+}
+
+.date {
+  font-size: 0.8rem !important;
+}
+
+.professionalSchedule {
+  display: block;
+  grid-gap: 5px 20px;
+  background-color: #ffffff;
+  margin: 50px auto;
+  max-width: 250px !important;
+  height: 270px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.especialidade {
+  text-align: center;
+}
+
+.input-agenda {
+  display: flex;
+  background-color: #FFC100;
+  color: #000000;
+  justify-content: center;
+  width: 185px;
+  height: 40px;
+  margin: 12px 25px;
+  padding-top: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.input-agenda:hover {
+  display: flex;
+  background-color: #000000;
+  color: #FFC100;
+  justify-content: center;
+  width: 185px;
+  height: 40px;
+  margin: 12px 25px;
+  padding-top: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.fotoPerfil {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  border: 3px solid #FFC100;
+  border-radius: 50%;
+
+}
+
+.fotoAgendamento {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #FFC100;
+  border-radius: 50%;
+}
+
+.detalhe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.lista-agendamento {
+  background-color: #FFF2B2;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+/* SCroll-bar Meus agendamentos */
+.mostly-customized-scrollbar {
+  display: block;
+  overflow-y: auto;
+  height: 35em;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 0;
+  background-color: #aaa;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+  background: #FFC100;
+  border-radius: 5px;
+}
+
+.input-agendamento {
+  background-color: #000000;
+  color: #FFC100;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+}
+
+.input-agendamento:hover {
+  background-color: #FFC100;
+  color: #000000;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.contact {
+  display: block;
+  background-color: #FFC100;
+  color: #000000;
+  justify-content: center;
+  width: 185px;
+  height: 40px;
+  margin-left: 180px;
+  padding: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.contact:hover {
+  display: block;
+  background-color: #000000;
+  color: #FFC100;
+  justify-content: center;
+  width: 185px;
+  height: 40px;
+  margin-left: 180px;
+  padding: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+  z-index: 20;
+}
+
+
+.logout {
+  padding: 200px 30px 0 0;
+  color: #FFC100;
+  text-decoration: none;
+}
+
+.logout:hover {
+  padding: 200px 30px 0 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+/* Responsivo da Dash 01 */
+
+@media(max-width: 500px) {
+
+
+  
+}

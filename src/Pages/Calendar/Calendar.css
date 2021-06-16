@@ -1,0 +1,67 @@
+.body {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.perfil {
+  width: 100px;
+  margin: 25%;
+  max-width: 100%;
+}
+
+.navProfile {
+  background-color: black;
+  color: white;
+  margin: 0%;
+  border-radius: 30px;
+}
+.carrousel {
+  background-color: white;
+}
+.profilePhoto {
+  width: 80px !important;
+  height: 50px;
+}
+
+.carousel-img {
+  width: 150px;
+  max-width: 100%;
+}
+
+.ScheduleList {
+  background-color: #ffffff;
+}
+
+.principal {
+  background-color: brown;
+}
+
+.carrousel-professional {
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.especialidade {
+  margin: 0;
+  padding: 0;
+}
+
+.schedule-area {
+  margin-top: 15px !important;
+}
+
+.lista-agendamento-callendar {
+  background-color: #eaeaea;
+  margin: 25px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.Schedule-title {
+  padding: 10px;
+}
+
+.btn-schedule {
+  width: 50%;
+  margin: 0 !important;
+}

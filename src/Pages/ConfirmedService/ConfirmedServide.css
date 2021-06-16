@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+}
+
+.body {
+  padding: 2% !important;
+}
+
+.profile {
+  width: 100px;
+  margin: 25%;
+  max-width: 100%;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  margin: 0%;
+  border-radius: 30px;
+}
+
+.medium {
+  background-color: white;
+}
+
+.confirmed,
+.paypal,
+input {
+  margin: 10px auto !important;
+  max-width: 100%;
+  width: 50% !important;
+}
+
+.perfil-img {
+  width: 100px;
+  margin: 0px 10px;
+}
+.nome {
+  text-align: center;
+}
+
+.img-paypal {
+  width: 20px;
+  margin-right: 5px;
+  max-width: 100%;
+}
