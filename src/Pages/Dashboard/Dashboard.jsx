@@ -5,9 +5,6 @@ import img from '../../Assets/imagem.png'
 import './Dashboard.css'
 import { Link, useHistory } from 'react-router-dom';
 import { useEffect, useState } from 'react'
-import { FaHome } from 'react-icons/fa'
-import { FaHotjar }  from 'react-icons/fa'
-import { FaStar }  from 'react-icons/fa'
 import UserModal from '../../components/EventsModal/UserModal'
 
 
@@ -66,10 +63,6 @@ export default function Dashboard() {
     setTimeout(() => history.push('/'), 5000);    
   }
 
-  
-
-
-
   function logOut () {
     localStorage.removeItem('Token')
   }
@@ -87,31 +80,31 @@ export default function Dashboard() {
               <p className="email">{user.email}</p>
               <ul className="list-group">
                 <li className="nav-lista">
-                  <button className="buttonDash fa fa-home fa-fw  menu">
-                    <FaHome />
+                  <li className="fa fa-home fa-fw  menu">
+                    
                     Dashboard
-                  </button>
+                  </li>
                 </li>
                 <li className="nav-lista">
-                  <button className=" fa fa-bell fa-fw  menu" onClick={() => setModalOpen(true)}>
-                    <FaHotjar />
+                  <li className="fa fa-bell fa-fw  menu" onClick={() => setModalOpen(true)}>
+                    
                     Alterar dados
-                  </button>{' '}
+                  </li>{' '}
                 </li>
                 <li className="nav-lista">
                   {' '}
-                  <button className="buttonDash" onClick={handleDelete}>
-                    <FaStar />
-                    Deletar Conta
-                  </button>
+                  <li className="fa fa-bell fa-fw  menu" onClick={handleDelete}>
+                    
+                    Excluir Conta
+                  </li>
                 </li>
               </ul>
               <UserModal isOpen={modalOpen} onClose={() => setModalOpen(false)} onUserUpdate={(e) => onUserUpdate(e)} />
-              <button className="exitButton" onClick={logOut}>
-                <Link className="exitLink fas fa-sign-out-alt logout" to="/">
+              <div className="logout">
+                <Link className="exitLink fas fa-sign-out-alt logout" onClick={logOut} to="/">
                   Sair
                 </Link>
-              </button>
+              </div>
             </div>
           </div>
           <div className="col-7 px-lg-4">
