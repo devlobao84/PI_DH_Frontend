@@ -123,13 +123,6 @@ button>a {
 
 /*Responsividade*/
 
-
-@media (max-width: 1920px) {
-  h1 {
-    padding-top: 20px;
-  }
-}
-
 @media(max-width: 500px) {
   .body {
     display: flex;
@@ -144,19 +137,15 @@ button>a {
     max-width: 20%;
     border-radius: none;
     border: none;
-  }
-
-  .row {
-    display: none;
-  }
+  } 
 
   .welcome {
     display: block;
     max-width: 100% !important;
     margin: 50% 20% 0;
     padding-top: 10px;
-
   }
+    
 
   h1,
   p {
@@ -169,10 +158,22 @@ button>a {
     font-size: 16px;
   }
 
+   .row {
+     display: flex;
+   }
+
+   .res-row {
+     display: flex; 
+     width: 485px;    
+     justify-content: center;
+    
+     
+   }  
+
   .cadastro {
+    display: flex;
     padding-bottom: 5px;
   }
-
 
   .ilustra {
     display: none;
@@ -181,13 +182,12 @@ button>a {
   span {
     display: flex;
     justify-content: center;
-
   }
 
   .input-nome {
     display: block;
     justify-content: center;
-    width: 100% !important;
+    width: 150% !important;
     margin: auto 100%;
     text-align: left;
   }
