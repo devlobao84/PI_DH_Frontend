@@ -53,6 +53,10 @@ div .navProfile {
   border-radius: 5px;
 }
 
+li {
+  list-style-type: none;
+}
+
 .nav-lista:hover {
   background: #FFC100;
   color: black;
@@ -62,12 +66,6 @@ div .navProfile {
   cursor: pointer;
   border-radius: 5px;
 }
-
-li {
-  list-style-type: none;
-}
-
-
 
 .nav-lista>i {
   padding-right: 20px;
@@ -124,18 +122,37 @@ li {
   width: 100px;
 }
 
+
+.texto {
+  display: block;  
+  z-index: 10;
+  margin-left: 100px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 0 0 150px; 
+
+}
+
 p.welcome {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.8rem;
-  text-align: left;
-  margin: 0 60px 0 0;
-  padding: 20px 43px 0 15px;
-  margin-bottom: 30px;
+  text-align: left;  
+  padding: 20px 0 0 15px;
+  
 }
 
 .disponiveis {
   padding: 20px;
 }
+
+
 
 /*Final da Dahsboard*/
 
@@ -286,22 +303,24 @@ p.welcome {
   z-index: 20;
 }
 
+
 .logout {
-  padding-top: 150px;
+  padding: 200px 30px 0 0;
   color: #FFC100;
   text-decoration: none;
 }
 
 .logout:hover {
-  padding-top: 150px;
+  padding: 200px 30px 0 0;
   color: #ffffff;
   text-decoration: none;
 }
+
+
 
 /* Responsivo da Dash 01 */
 
 @media(max-width: 500px) {
 
 
-  
 }

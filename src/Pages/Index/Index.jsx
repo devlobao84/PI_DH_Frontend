@@ -32,9 +32,8 @@ export default function Index() {
       }) 
       const result = await response.json() 
       history.push('/login');
-    
- }
 
+ }
 
   return (
     <div className="body">
@@ -127,7 +126,6 @@ export default function Index() {
                     value={form.confirmarSenha}
                     onChange={handleChange}
                   />
-
                   <div className="buttons">
                     <button type="submit" className="btn btn-warning btn-create">
                       Criar nova conta
@@ -137,16 +135,9 @@ export default function Index() {
                       <a href="/login">Já tenho conta</a>
                     </button>
                   </div>
-
-
-
-                  <div className="logo-index">
-                    <img src={logo} alt="logo do site" className="marca res-index"></img>
+                  <div className="logo">
+                    <img src={logo} alt="logo do site" className="logotipo logo-res"></img>
                   </div>
-
-
-
-
                 </div>
               </form>
             </div>
