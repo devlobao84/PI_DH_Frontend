@@ -132,13 +132,13 @@ export default function Index() {
                     <button type="submit" className="btn btn-warning btn-create">
                       Criar nova conta
                     </button>
-                    
+
                     <button type="text" className="btn btn-warning btn-create">
                       <a href="/login">Já tenho conta</a>
                     </button>
                   </div>
                   <div className="logo">
-                    <img src={logo} alt="logo do site" className="logotipo"></img>
+                    <img src={logo} alt="logo do site" className="logotipo logo-res"></img>
                   </div>
                 </div>
               </form>

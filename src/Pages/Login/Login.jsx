@@ -43,22 +43,20 @@ export default function Login() {
     <div className="body">
       <div className="container">
         <div className="row">
-          <div className="col-7 texto">
+          <div className="col-7 welcome">
             <h1>Seja bem-vindo!</h1> <br></br>
+            <p>Faça login com seu usuário e senha e aproveite ao máximo o sistema da Wally!</p>
             <br></br>
             <img className="ilustra" src={img} alt="Ilustração"></img>
           </div>
-          <div className="col-5 mw-100 div-form box-form">
-            <div className="form form-login">
+          <div className="col-5 mw-100 div-form div-res">
+            <div>
               <div className="cadastro">
                 <span>Login</span>
               </div>
               <form onSubmit={loginSubmit}>
-                <div className="row">
-                  <small
-                    id="passwordHelpBlock"
-                    className="form-text text-muted descricao"
-                  >
+                <div className="row res-row">
+                  <small id="passwordHelpBlock" className="form-text text-muted descricao">
                     Endereço de e-mail
                   </small>
                   <input
@@ -67,12 +65,8 @@ export default function Login() {
                     name="email"
                     placeholder="Endereço de email"
                     onChange={handleSubmit}
-                 
                   />
-                  <small
-                    id="passwordHelpBlock"
-                    className="form-text text-muted descricao"
-                  >
+                  <small id="passwordHelpBlock" className="form-text text-muted descricao">
                     Senha
                   </small>
                   <input
@@ -82,19 +76,15 @@ export default function Login() {
                     placeholder="Senha"
                     onChange={handleSubmit}
                   />
-                  <small
-                    id="passwordHelpBlock"
-                    className="form-text text-muted descricao"
-                  >
+                  <small id="passwordHelpBlock" className="form-text text-muted descricao">
                     Manter Logado
                     <input type="checkbox" name="lembreLogado" />
                   </small>
                   <div>
-                    <button type="submit" className="btn btn-warning"  >
-                      Efetuar login                     
-                                                     
-                     </button>
-                    <img src={logo} alt="logo do site" className="logo" />
+                    <button type="submit" className="btn btn-warning input-maior">
+                      Efetuar login
+                    </button>
+                    <img src={logo} alt="logo do site" className="logotipo logo-res"/>
                   </div>
                 </div>
               </form>
@@ -103,5 +93,5 @@ export default function Login() {
         </div>
       </div>
     </div>
-  );
+  )
 }

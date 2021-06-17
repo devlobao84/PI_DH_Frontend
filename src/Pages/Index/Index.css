@@ -162,13 +162,20 @@ button>a {
      display: flex;
    }
 
-   .res-row {
-     display: flex; 
-     width: 485px;    
-     justify-content: center;
-    
-     
-   }  
+  .div-res {
+    display: flex;
+    background-color: #F2F2F2;
+    max-width: 20%;
+    border-radius: none;
+    border: none;
+  }
+
+  .welcome {
+    display: block;
+    max-width: 100% !important;
+    margin: 50% 20% 0;
+    padding-top: 10px;
+  }
 
   .cadastro {
     display: flex;
@@ -213,3 +220,4 @@ button>a {
     height: 120px !important;
   }
 }
+
