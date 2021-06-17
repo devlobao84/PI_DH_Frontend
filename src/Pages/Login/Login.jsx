@@ -84,7 +84,10 @@ export default function Login() {
                     <button type="submit" className="btn btn-warning input-maior">
                       Efetuar login
                     </button>
-                    <img src={logo} alt="logo do site" className="logotipo logo-res"/>
+
+                    <div className="logo logo-index">
+                      <img src={logo} alt="logo do site" className="logotipo logo-res" />
+                    </div>
                   </div>
                 </div>
               </form>

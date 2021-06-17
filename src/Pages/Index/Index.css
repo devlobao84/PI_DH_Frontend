@@ -87,17 +87,20 @@ p {
   font-size: 18px;
 }
 
-.logo {
+.logo-index {
   display: flex;
   justify-content: center;
-  margin-left: 100px;
-  width: 170px !important;
+  margin-top: none;
+  padding: 5px 100px;
+  width: 290px !important;
+  
 }
 
-.logotipo {
+.marca {
   display: flex;
   justify-content: center;
-  padding: 5px 50px;
+  padding: 5px 100px;
+  margin: 20px 0 150px 250px;
   width: 350px !important;
   height: 120px !important;
 }
@@ -204,19 +207,20 @@ button>a {
     text-align: left;
   }
 
-  .logo {
+   .logo-index {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    margin-top: none;
     padding: 5px 100px;
-    width: 290px !important;
+    width: 200px !important;
   }
 
-  .logotipo {
+  .res-index {
     display: flex;
     justify-content: center;
-    padding: 10px 100px;
-    width: 350px !important;
+    padding: 10px 100px;    
+    margin: 20px 0 100px 250px;
+    width: 380px !important;
     height: 120px !important;
   }
 }

@@ -137,9 +137,16 @@ export default function Index() {
                       <a href="/login">Já tenho conta</a>
                     </button>
                   </div>
-                  <div className="logo">
-                    <img src={logo} alt="logo do site" className="logotipo logo-res"></img>
+
+
+
+                  <div className="logo-index">
+                    <img src={logo} alt="logo do site" className="marca res-index"></img>
                   </div>
+
+
+
+
                 </div>
               </form>
             </div>

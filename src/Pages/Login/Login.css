@@ -102,6 +102,7 @@ input:nth-child(8) {
   display: flex;
   justify-content: center;
   padding: 5px 100px;
+  margin: 100px 0 150px 350px;
   width: 350px !important;
   height: 120px !important;
 }
@@ -150,10 +151,6 @@ button>a {
     font-size: 16px;
   }
 
-
-
-
-
   .cadastro {
     padding-bottom: 5px;
   }
@@ -201,25 +198,18 @@ button>a {
   .logo {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    margin-top: none;
     padding: 5px 100px;
     width: 290px !important;
-
-  }
-
-  .logotipo {
-    display: flex;
-    justify-content: center;
-    padding: 5px 50px;
-    width: 300px !important;
-    height: 180px !important;
-    overflow: hidden;
   }
 
   .logo-res {
-    display: flex;        
-    margin: 85px auto;
-   
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+    margin: 100px 50px 100px 200px;    
+    width: 380px !important;
+    height: 120px !important;
   }
 }
 
